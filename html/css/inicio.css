@@ -362,7 +362,7 @@ body{
     margin: 10px;
 }
 
-.s-cursos .cursos button{
+.s-cursos .cursos a{
     position: absolute;
     width: 50%;
     height: 40px;
@@ -378,9 +378,11 @@ body{
     border-radius: 3px;
     cursor: pointer;
     transition: .2s ease;
+    text-align: center;
+    text-decoration: none;
 }
 
-.s-cursos .cursos button:hover{
+.s-cursos .cursos a:hover{
     transform: scale(1.1);
 }
 
