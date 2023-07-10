@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="css/c_academicos.css">
+    <link rel="stylesheet" href="css/academicos.css">
     <title>Cursos Academicos</title>
 </head>
 <body>
@@ -24,7 +24,17 @@
             <a href="">Inicia sesion</a>
         </nav>
 
-        <a href="" class="perfil"><i class='bx bxs-user-circle' ></i></a>
+        <div class="opciones-perfil">
+            <label for="btn-perfil" class="perfil"><i class='bx bxs-user-circle' ></i></label>
+            <input type="checkbox" id="btn-perfil">
+            <div class="opciones">
+                <nav>
+                    <a href="">Perfil</a>
+                    <a href="">Mis cursos</a>
+                    <a href="">Cerrar sesión</a>
+                </nav>
+            </div>
+        </div>
     </header>
 
     <!--Menu lateral-->
@@ -47,12 +57,18 @@
 
     <main>
         <section id="intro">
+            <div id="background">
+
+            </div>
+
             <div class="informacion">
                 <h2>Cursos academicos</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti deleniti impedit sequi dicta, ad aperiam!</p>
             </div>
 
-            <img src="https://compass-ssl.xbox.com/assets/23/b6/23b6f32d-f359-43f3-a595-399cb019c603.jpg?n=DOOM-Eternal_GLP-Page-Hero-0_1083x609_02.jpg" alt="">
+            <div id="img">
+                
+            </div>
         </section>
 
         <section id="carrusel">
@@ -143,6 +159,6 @@
         </div>
     </footer>
 
-    <script src="js/script_slider_academ.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 </html>

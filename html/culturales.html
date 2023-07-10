@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="css/cursos-culturales.css">
+    <link rel="stylesheet" href="css/culturales.css">
     <title>Cursos Culturales</title>
 </head>
 <body>
@@ -25,7 +25,17 @@
                 <a href="">Inicia sesion</a>
             </nav>
 
-            <a href="" class="perfil"><i class='bx bxs-user-circle' ></i></a>
+            <div class="opciones-perfil">
+                <label for="btn-perfil" class="perfil"><i class='bx bxs-user-circle' ></i></label>
+                <input type="checkbox" id="btn-perfil">
+                <div class="opciones">
+                    <nav>
+                        <a href="">Perfil</a>
+                        <a href="">Mis cursos</a>
+                        <a href="">Cerrar sesión</a>
+                    </nav>
+                </div>
+            </div>
         </header>
 
         <!--Menu lateral-->
@@ -47,13 +57,17 @@
         <!--Contenido Central-->
 
         <section class="superior">
+            <div class="background">
+                
+            </div>
+
             <div class="info">
                 <h1>Cursos Culturales</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vel tempora, mollitia ut error cum tenetur nisi obcaecati voluptate alias.</p>
             </div>
 
-            <div class="img-gradient">
-                <img src="https://cdn.akamai.steamstatic.com/steam/apps/1551360/ss_1da0673f82eccc3c9d222237dec40e36bf10eef3.1920x1080.jpg?t=1683059745" alt="">
+            <div class="img">
+                
             </div>
         </section>
 
@@ -199,6 +213,6 @@
 
     </main>
 
-    <script src="js/script_slider_cult.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 </html>
