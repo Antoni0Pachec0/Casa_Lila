@@ -111,7 +111,7 @@
             <!--El texto que va dentro del mismo-->
             <h2>Cursos culturales</h2>
             <p>¿Te interesa el arte? Encuentra actividades que ayuden a tu desarrollo artístico y diviertete aprendiendo.</p>
-            <a href="index.php?pagina=culturales">Saber más</a>
+            <a href="">Saber más</a>
         </div>
 
         <!--Contenedor de una de los apartados-->
@@ -121,15 +121,16 @@
             <!--El texto que va dentro del mismo-->
             <h2>Cursos academicos</h2>
             <p>Dí adiós a las dificultades y el aburrimiento, estudiar no debe ser tedioso, sino entretenido.</p>
-            <a href="index.php?pagina=academicos">Saber más</a>
+            <a href="">Saber más</a>
         </div>
+
 
         <!--Contenedor de una de los apartados-->
         <div class="cursos" id="verano">
             <img src="https://www.diariomotor.com/imagenes/2023/03/f40-liberty-walk-641212ae4033f.jpg" alt="">
             <h2>Cursos de verano</h2>
             <p>¿Demasiado tiempo libre en vacaciones? Aprovéchalo y aprende algo nuevo.</p>
-            <a href="index.php?pagina=verano">Saber más</a>
+            <a href="">Saber más</a>
         </div>
 
         <div class="slider-frame">
