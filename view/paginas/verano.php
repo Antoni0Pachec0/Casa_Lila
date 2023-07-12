@@ -20,50 +20,58 @@
         </form>
 
         <div class="logo"></div>
+<!--====================================================================================
+*Condiciones para abrir las variables GET mediante la URL se condiciona si la 
+*carpeta paginas es igual auna de las que tenemos se abra           #==:inicio.php==
+=====================================================================================-->
 
-        <?php if(isset($_GET["Paginas"])): ?>
+    <?php if(isset($_GET["paginas"])):?>
 
-        <!--Estos son los if de la parte de regitsro para que se "pinten"-->
-        <!--Si la varieble GET es igual a registro, lo activo-->
+    <?php if($_GET["paginas"] == "login"): ?>
+        <a href="index.php?pagina=login">Inicia Sesion</a>
+    <?php else: ?>
+        <a href="index.php?pagina=login">Inicia Sesion</a>
+    <?php endif ?>
 
-        <!--El error que teniamos es que preguntabamos en cada if con el metodo isset-->
+<!--=================================================================-->
 
-        <?php if($_GET["Paginas"] == "Inicio"): ?>
-            <a href="Index.php?Pagina=Inicio">Inicio</a>
-        <?php else: ?>
-            <a href="Index.php?Pagina=Inicio">Inicio</a>
-        <?php endif ?>
+    <?php if($_GET["paginas"] == "inicio"): ?>
+        <a href="index.php?pagina=inicio">Inicio</a>
+    <?php else: ?>
+        <a href="index.php?pagina=inicio">Inicio</a>
+    <?php endif ?>
 
-        <?php if($_GET["Paginas"] == "Login"): ?>
-            <a href="Index.php?Pagina=Login">Inicia Sesion</a>
-        <?php else: ?>
-            <a href="Index.php?Pagina=Login">Inicia Sesion</a>
-        <?php endif ?>
+<!--=================================================================-->
 
+    <?php else: ?>
 
-        <?php else: ?>
+<!--=================================================================-->
 
-        <nav class="navbar">
-            <a href="Index.php?pagina=Inicio">Inicio</a>
-            <a href="Index.php?Pagina=Login">Inicia sesion</a>
-        </nav>
+    <nav class="navbar">
+        <a href="index.php?pagina=inicio">Inicio</a>
+        <a href="index.php?pagina=login">Inicia sesion</a>
+    </nav>
 
-        <a href="" class="perfil"><i class='bx bxs-user-circle' ></i></a>
-    </header>
+<!--=================================================================-->
 
     <?php endif ?>
+
+<!--=================================================================-->
+
+    <a href="" class="perfil"><i class='bx bxs-user-circle' ></i></a>
+    </header>
 
     <!--Menu lateral-->
     <input type="checkbox" id="btn_menu">
     <div class="container_menu">
         <div class="cont_menu">
             <nav>
-                <a href="#">Opcion 1</a>
-                <a href="#">Opcion 2</a>
-                <a href="#">Opcion 3</a>
-                <a href="#">Opcion 4</a>
-                <a href="#">Opcion 5</a>
-                <a href="#">Opcion 6</a>
+                <a href="#">Puto Terry</a>
+                <a href="#">Bastardo</a>
+                <a href="#">De mierda</a>
+                <a href="#">Me caes de la vrga</a>
+                <a href="#">Eres un pendejo</a>
+                <a href="#">Me la pelas</a>
             </nav>
             <label for="btn_menu" class="icon_equis"><i class='bx bx-x'></i></label>
         </div>
@@ -159,6 +167,6 @@
         </div>
     </footer>
 
-    <script src="http://localhost/casa_lila/html/js/slider.js"></script>
+    <script src="http://localhost/casa_lila/html/js/verano.js"></script>
 </body>
 </html>

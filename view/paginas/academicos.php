@@ -19,10 +19,44 @@
 
         <div class="logo"></div>
 
+<!--====================================================================================
+*Condiciones para abrir las variables GET mediante la URL se condiciona si la 
+*carpeta paginas es igual auna de las que tenemos se abra           #==:inicio.php==
+=====================================================================================-->
+
+        <?php if(isset($_GET["paginas"])):?>
+
+        <?php if($_GET["paginas"] == "login"): ?>
+            <a href="index.php?pagina=login">Inicia Sesion</a>
+        <?php else: ?>
+            <a href="index.php?pagina=login">Inicia Sesion</a>
+        <?php endif ?>
+
+<!--=================================================================-->
+
+        <?php if($_GET["paginas"] == "inicio"): ?>
+            <a href="index.php?pagina=inicio">Inicio</a>
+        <?php else: ?>
+            <a href="index.php?pagina=inicio">Inicio</a>
+        <?php endif ?>
+
+<!--=================================================================-->
+
+        <?php else: ?>
+
+<!--=================================================================-->
+        
         <nav class="navbar">
-            <a href="">Inicio</a>
-            <a href="">Inicia sesion</a>
+            <a href="index.php?pagina=inicio">Inicio</a>
+            <a href="index.php?pagina=login">Inicia sesion</a>
         </nav>
+
+<!--=================================================================-->
+
+    <?php endif ?>
+    
+<!--=================================================================-->
+    
 
         <a href="" class="perfil"><i class='bx bxs-user-circle' ></i></a>
     </header>

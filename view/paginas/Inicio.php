@@ -124,7 +124,6 @@
             <a href="index.php?pagina=academicos">Saber más</a>
         </div>
 
-
         <!--Contenedor de una de los apartados-->
         <div class="cursos" id="verano">
             <img src="https://www.diariomotor.com/imagenes/2023/03/f40-liberty-walk-641212ae4033f.jpg" alt="">
